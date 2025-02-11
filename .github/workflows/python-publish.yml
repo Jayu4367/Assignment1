@@ -22,8 +22,8 @@ jobs:
         
     - name: Run tests
       run: |
-        pytest test_bmi_calculator.py -v
+        pytest BMI.py -v
         
     - name: Run BMI calculator
       run: |
-        python bmi_calculator.py
+        python BMI.py
